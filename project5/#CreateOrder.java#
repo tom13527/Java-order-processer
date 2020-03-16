@@ -1,0 +1,127 @@
+// FIGURE OUT PACKAGE
+/**
+    This class will hold the information for an item that was ordered
+    by a consumer. It will have methods that will calculate the total price
+    of the consumer's order and display the order.
+
+    @author Tom Good
+*/
+public class CreateOrder {
+
+    // declare variables
+    private String customerName;
+    private String productName;
+    private int customerNumber;
+    private int quantityOrdered;
+    private double unitPrice;
+
+    // get methods
+
+    /**
+        get the customer's name
+
+        @return customerName
+    */
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    /**
+        get the product name
+
+        @return productName
+    */
+    public String getProductName() {
+        return productName;
+    }
+
+    /**
+        get the quantity ordered
+
+        @return quantityOrdered
+    */
+    public int getQuantityOrdered() {
+        return quantityOrdered;
+    }
+
+    /**
+        get the customer's number
+
+        @return customerNumber
+    */
+    public int getCustomerNumber() {
+        return customerNumber;
+    }
+
+    /**
+        get the item price
+
+        @return unitPrice
+    */
+    public double getUnitPrice() {
+        return unitPrice;
+    }
+
+    // set methods
+
+    /**
+        set the customer's name
+
+        @param newCustomerName
+    */
+    public void setCustomerName(String newCustomerName) {
+        customerName = newCustomerName;
+    }
+
+    /**
+        set the product name
+
+        @param newProductName
+    */
+    public void setProductName(String newProductName) {
+        productName = newProductName;
+    }
+
+    /**
+        set the customer's number
+
+        @param newCustomerNumber
+    */
+    public void setCustomerName(int newCustomerNumber) {
+        customerNumber = newCustomerNumber;
+    }
+
+    /**
+        set the quantity ordered
+
+        @param newQuantityOrdered
+    */
+    public void setQuantityOrdered(int newQuantityOrdered) {
+        quantityOrdered = newQuantityOrdered;
+    }
+
+    /**
+        set the unit price
+
+        @param newUnitPrice
+    */
+    public void setUnitPrice(double newUnitPrice) {
+        unitPrice = newUnitPrice;
+    }
+
+    // TO DO
+    /**
+        This method will calculate the the total for the order
+
+        @param
+    */
+
+    // TO DO
+    /**
+        This constructor will contain all the variables for ItemProcessing
+        to be set
+
+        @param customerName, customerNumber, productName, quantityOrdered, unitPrice
+    */
+    public CreateOrder() {
+}

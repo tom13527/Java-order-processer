@@ -1,0 +1,18 @@
+/**
+    This class will test drive the constructor class, calling it's method
+
+    @author Tom Good
+*/
+public class ConstructorTestDrive {
+
+    /**
+        This will be the main method for the constructor class, which will
+        call the constructor found within the class
+
+        @param args command line arguements
+    */
+    public static void main(String[] args) {
+
+        Constructor constructor = new Constructor();
+    }
+}

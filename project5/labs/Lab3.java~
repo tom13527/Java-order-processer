@@ -1,0 +1,16 @@
+/**
+    This will hold the lab 3 class which will test overloading constructors
+
+    @author Tom Good
+*/
+public class Lab3 {
+
+    String name;
+    int size;
+
+    public Values() {
+
+        name = "Joe";
+        size = 12;
+    }
+}
